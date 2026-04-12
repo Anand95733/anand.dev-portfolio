@@ -16,11 +16,12 @@ const ContactForm = () => {
       from_name: name,
       from_email: email,
       message: message,
-      to_email: "mjjustme26@gmail.com", // Ensures email is sent to your inbox
+      to_email: "goudanand19@gmail.com", // Ensures email is sent to your inbox
     };
 
+    // Authenticated EmailJS Credentials
     emailjs
-      .send("service_o48i3n8", "template_bu93i9y", emailParams, "twSBnh7FehLeyC9DC")
+      .send("service_74v899u", "template_4nq2zpd", emailParams, "AiWbENnUhuWue_e36")
       .then(
         () => {
           setEmail("");

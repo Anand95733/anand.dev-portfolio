@@ -13,6 +13,8 @@ const experiences = [
       "Improved model accuracy by 12% through feature engineering",
       "Implemented hyperparameter tuning and data preprocessing pipelines in Python",
       "Worked with NumPy and various ML algorithms",
+      "Cleaned and normalized large datasets to optimize model training efficiency",
+      "Documented model architecture and training procedures for future team reference",
     ],
   },
   {
@@ -35,13 +37,15 @@ const experiences = [
       "Reduced manual tracking effort by 80%",
       "Worked on AI-powered identification algorithms",
       "Collaborated with team on production-grade AI solutions",
+      "Assisted in integrating computer vision models with the backend infrastructure",
+      "Conducted extensive testing to ensure high accuracy in real-world environments",
     ],
   },
 ];
 
 const AllExperiences = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col items-center justify-between">
+    <div className="flex md:flex-row sm:flex-col items-stretch justify-between w-full">
       {experiences.map((experience, index) => {
         return (
           <>
@@ -52,6 +56,7 @@ const AllExperiences = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
+                className="self-center mt-12"
               >
                 <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
               </motion.div>

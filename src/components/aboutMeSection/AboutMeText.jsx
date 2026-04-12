@@ -14,6 +14,12 @@ const AboutMeText = () => {
         real-time collaborative platforms, AI-powered interview simulators, and streaming 
         applications with a focus on performance and user experience.
       </p>
+      <br />
+      <p>
+        I hold a B.Tech in Computer Science Engineering from Sri Venkatesa Perumal 
+        College of Engineering & Technology (2020 - 2024), where I built my foundational 
+        knowledge before stepping into the industry.
+      </p>
       <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link
           spy={true}
