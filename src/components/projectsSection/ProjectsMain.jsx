@@ -15,7 +15,7 @@ const projects = [
   },
   {
     name: "XOR - Collaborative Code Editor",
-    year: "2025",
+    year: "2024",
     align: "left",
     image: "/images/xor-code-editor.png",
     link: "https://xor-collaborative-code-editor.vercel.app/",
@@ -33,12 +33,21 @@ const projects = [
   },
   {
     name: "Sommarie-AI",
-    year: "2025",
+    year: "2024",
     align: "left",
     image: "/images/sommarie-ai.png",
     link: "https://sommarie-ai.vercel.app/",
     github: "https://github.com/Anand95733/sommarie-ai.git",
     description: "Full-stack web application that transforms PDFs into engaging, AI-powered summaries. Built with Next.js 15, OpenAI GPT-4o-mini, Google Gemini 1.5 Pro, and LangChain.",
+  },
+  {
+    name: "AI Prompt Library",
+    year: "2025",
+    align: "right",
+    image: "/images/ai-prompt-library.png",
+    link: "https://ai-prompt-library-eta.vercel.app/prompts",
+    github: "https://github.com/Anand95733/ai-prompt-library.git",
+    description: "Production-grade full-stack prompt management platform built with Angular 19, Django 4.2, PostgreSQL, and Redis. Features glassmorphism UI, live view counters, complexity badges, and Swagger API docs.",
   },
 ];
 

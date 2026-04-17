@@ -37,3 +37,4 @@ const HeroText = () => {
 };
 
 export default HeroText;
+
